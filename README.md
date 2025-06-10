@@ -1,7 +1,7 @@
 # Fnbwk6
 # 📇 Week 6 – Contact Book App & Working with APIs
 
-Welcome to **Week 6** of the FNB App Academy — and the **final week of the Intermediate Phase**!
+Welcome to **Week 6** of the FNB App Academy and the **final week of the Intermediate Phase**!
 
 The last two weeks have been a serious level-up. I’ve been juggling **HTML**, **CSS**, and **JavaScript**, and I’ve managed to build real functionality into my apps. That alone is something to be proud of — it's not easy to switch between three different languages and keep your head straight. But I did it.
 
