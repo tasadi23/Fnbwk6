@@ -30,21 +30,23 @@ output = "<table>";
 
     for(a in data){
 output += `
-<tr>
+<tr onclick="editContact(${data[a].id})">
 <td><img src="$(rootPath)controller/uploads/${data[a].avatar}" width="40"/></td>
 <td><h5>${data[a].firstname}</h5></td>
-<td><h5>${data[a]lastname}</h5></td>
+<td><h5>${data[a].lastname}</h5></td>
 </tr>
- 
-      `
-
+`
 }
 output += "</table>";
 document.getElementById("table").innerHTML = output;
 }
 
 function addContact(){
-Window.open("add-contact.html", self);
+window.open("add-contact.html", self);
+}
+
+function editContact(id){
+    window.open("edit-contact.html?id=" + id, "_self");
 }
 </script>
 </body>
